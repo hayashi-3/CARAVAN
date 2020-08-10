@@ -51,7 +51,7 @@
       <p class="single-text">
       	<%= @blog.body %>
       </p>
-      <a href="#">編集</a>
+      <%= link_to "編集", edit_blog_path(@blog) %>
       <a href="#">削除</a>
       <div class="author-case clearfix">
         <div class="author-image"></div>
@@ -62,7 +62,7 @@
             of the day and night when the light is fleeting, or in poor<br>
             weather conditions, such as rain, fog, or snow, are<br>
             reminiscent of the calm in a storm all with an ethereal<br>
-            quality. 
+            quality.
           </p>
         </div>
       </div>
